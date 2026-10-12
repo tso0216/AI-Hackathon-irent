@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>即時還車照片鑑定 Demo</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+<div class="app">
+  <div class="phone-wrap"><div class="phone" id="phone"><div class="screen" id="screen"></div></div></div>
+  <div class="panel" id="panel"></div>
+</div>
+<script src="{{ url_for('static', filename='assets.js') }}"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
